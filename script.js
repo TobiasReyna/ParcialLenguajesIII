@@ -11,6 +11,13 @@ function enviar() {
         return;
     }
 
+    // Validación de email
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if(!emailRegex.test(email)) {
+        alert("Por favor, ingrese un email válido.");
+        return;
+    }
+
     if(dni< 10000000 || dni > 99999999){
         alert("El DNI debe tener 8 dígitos.");
         return;
