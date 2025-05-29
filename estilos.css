@@ -1,4 +1,4 @@
-.formulario {
+#formulario {
     width: 300px;
     margin: 0 auto;
     padding: 20px;
@@ -6,8 +6,28 @@
     border-radius: 5px;
     background-color: #f9f9f9;
 }
-.formulario h2 {
+#formulario h2 {
     text-align: center;
     color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#formulario, #respuestas {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#respuestas {
+    width: 320px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    background-color: #fffbe7;
+    text-align: center;
 }
 
